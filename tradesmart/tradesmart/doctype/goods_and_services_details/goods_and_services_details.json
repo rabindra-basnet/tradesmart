@@ -1,0 +1,77 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-01-28 15:12:41.836848",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "lc_goods_details_section",
+  "goods_name",
+  "goods_type",
+  "goods_description",
+  "price_per_unit",
+  "column_break_ulbz",
+  "goods_composition",
+  "no_of_unit",
+  "total_amount"
+ ],
+ "fields": [
+  {
+   "fieldname": "lc_goods_details_section",
+   "fieldtype": "Section Break",
+   "label": "LC GOODS DETAILS"
+  },
+  {
+   "fieldname": "goods_name",
+   "fieldtype": "Data",
+   "label": "Goods Name"
+  },
+  {
+   "fieldname": "goods_type",
+   "fieldtype": "Data",
+   "label": "Goods Type"
+  },
+  {
+   "fieldname": "goods_description",
+   "fieldtype": "Data",
+   "label": "Goods Description"
+  },
+  {
+   "fieldname": "price_per_unit",
+   "fieldtype": "Data",
+   "label": "Price per Unit"
+  },
+  {
+   "fieldname": "column_break_ulbz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "goods_composition",
+   "fieldtype": "Data",
+   "label": "Goods Composition"
+  },
+  {
+   "fieldname": "no_of_unit",
+   "fieldtype": "Data",
+   "label": "No of Unit"
+  },
+  {
+   "fieldname": "total_amount",
+   "fieldtype": "Data",
+   "label": "Total Amount"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-01-28 15:15:10.812366",
+ "modified_by": "Administrator",
+ "module": "Tradesmart",
+ "name": "Goods and Services Details",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
